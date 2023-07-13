@@ -68,14 +68,11 @@
   display: none;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:focus {
-}
-
 #leftbox-textbox__updown a:focus + div {
   display: block;
 }
+
+#leftbox-textbox__updown > div > div {
+  padding-left: 35px;
+}
+

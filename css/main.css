@@ -4,6 +4,11 @@
 @import '../css/optionbox.css';
 @import '../css/chatbox.css';
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }
