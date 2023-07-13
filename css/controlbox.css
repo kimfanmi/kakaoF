@@ -1,0 +1,73 @@
+
+
+
+#control {
+  height: 35px;
+  position: relative;
+}
+
+#controlbox {
+  position: absolute;
+  right: 1%;
+  width: 105px;
+  height: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+}
+
+#minwindow {
+  width: 33.33%;
+  overflow: hidden;
+  padding-top: 14px;
+  padding-left: 5px;
+}
+
+#minicon {
+  width: 70%;
+  border: 1px solid;
+}
+
+#maxwindow {
+  width: 33.33%;
+  overflow: hidden;
+  /* padding-top: 6px; */
+  /* padding-left: 9px; */
+}
+
+#maxicon {
+  margin: 6px 8px;
+  width: 60%;
+  height: 60%;
+  border: 3px solid;
+}
+
+#closewindow {
+  width: 33.33%;
+  overflow: hidden;
+  padding-top: 6px;
+  padding-left: 5px;
+  position: relative;
+}
+
+#closewindow > * {
+  position: absolute;
+  top: 43%;
+}
+
+#closeicon1 {
+  width: 70%;
+  border: 1px solid;
+  transform: rotate(45deg);
+}
+#closeicon2 {
+  width: 70%;
+  border: 1px solid;
+  transform: rotate(-45deg);
+}
+
+#controlbox * {
+  border-color: #ccc;
+}
+#controlbox *:hover > * {
+  border-color: #444;
+}
