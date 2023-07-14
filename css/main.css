@@ -13,12 +13,28 @@ a {
   box-sizing: border-box;
 }
 
-#container {
+
+
+.container {
   width: 100%;
   padding-left: 100px;
   padding-bottom: 150px;
-  display: flex;
   flex-flow: column wrap;
+  position: relative;
+  display: flex;
+}
+
+.container > div {
+  position: absolute;
+  top: 0%;
+  left: 100px;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 150px);
+
+}
+
+#container_chat {
+  display: none;
 }
 
 
